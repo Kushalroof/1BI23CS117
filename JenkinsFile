@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Kushalroof/1BI23CS117'
+                git branch: 'master', url: 'https://github.com/Kushalroof/1BI23CS117.git'
             }
         }
 
